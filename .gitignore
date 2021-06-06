@@ -7,9 +7,18 @@
 
 # Test binary, built with `go test -c`
 *.test
+nursery-darwin-amd64
+nursery-linux-amd64
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+#logs folders
+logs
+**/logs/
+
+#swagger file (generated)
+swagger.yaml
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
